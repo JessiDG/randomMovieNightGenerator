@@ -5,7 +5,7 @@ writing_group_list = ["Sinéad", "Jessica", "Laura", "Vanessa",
                       "Abhirup", "Rachael", "Blanche", "Donald",
                       "Lu", "Terry", "Bev","Weronika"]
 rand_list = []
-for i in range(len(writing_group_list)):
+for i in range(100):
     rand_int = random.randint(0, len(writing_group_list)-1)
     rand_writing_group_member = writing_group_list[rand_int]
     if rand_writing_group_member not in rand_list:
